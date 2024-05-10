@@ -1,7 +1,12 @@
 const inquirer = require (`inquirer`);
 const fs = require(`fs`);
+import { Circle , Triangle , Square} from (`./lib/shape`)
 
-inquirer.prompt([
+
+
+
+async function generateLogo(){
+    const data = await inquirer.prompt([
     {
         type: `input`,
         message: `Input 3 characters`,
@@ -26,5 +31,19 @@ inquirer.prompt([
         name:`shapecolor`,
 
     },
-])
-.then((data) =>{});
+])}
+
+let shape
+switch (data.shape) =>{
+    
+
+});
+
+
+const svgContent = `<svg  svg>`
+${shape.render()}
+
+
+
+
+export{generateLogo}
