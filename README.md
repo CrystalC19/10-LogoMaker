@@ -30,7 +30,7 @@ Navigate to the logo.svg file
 Open the file in the browser
 
  ## ScreenShot / Video
- ![svg screenshot](assets/screenshot)
+ ![svg screenshot](assets/Screenshot%20for%20logomaker.png)
  ![logo maker video](<iframe src="https://drive.google.com/file/d/1GZOnXWbxYxDgKlOEY_v6b0VW_vUSGu4l/preview" width="640" height="480"></iframe>)
 
  
