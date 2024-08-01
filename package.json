@@ -1,8 +1,27 @@
 {
-  "dependencies": {
-    "inquirer": "^9.2.20"
+  "name": "logomaker",
+  "version": "1.0.0",
+  "description": "module-10 challenge",
+  "type":"module",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
   },
-  "devDependencies": {
+  "scripts": {
+    "test": "jest"
+ 
+  },
+  "dependencies": {
+  "inquirer": "^9.2.20",
     "jest": "^29.7.0"
-  }
 }
+
+
+
+}
+
+
+
+
+
